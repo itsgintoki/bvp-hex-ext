@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Nutrition Info Finder",
+    "version": "1.0",
+    "description": "Fetch nutrition information like protein, calories, etc.",
+    "permissions": ["activeTab", "storage"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
